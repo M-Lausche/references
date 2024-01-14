@@ -19,6 +19,10 @@ Certainly! Here's the JavaScript cheat sheet formatted as a table for easy expor
 | Switch | Select one of many code blocks to be executed. | `switch(expression) { case x: /* code */ break; default: /* code */ }` |
 | For Loop | Loop with a counter, run for a specified number of times. | `for (let i = 0; i < 5; i++) { console.log(i); }` |
 | While Loop | Loop as long as a condition is true. | `let i = 0; while (i < 5) { console.log(i); i++; }` |
+| For Let | a for loop where the loop variable is declared using the let keyword. The let keyword provides block scope for the loop variable, which is often desirable for various reasons, including avoiding unintended side effects and errors.| `for (let i = 0; i < someCondition; i++) {
+    // Loop body
+}
+`|
 | **Error Handling** | | |
 | Try-Catch | Handle exceptions safely. | `try { /* code */ } catch (error) { /* code */ }` |
 | **ES6 Features** | | |
