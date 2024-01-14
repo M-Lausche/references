@@ -22,7 +22,7 @@ Certainly! Here's a Python reference document formatted as a table for easy expo
 | Defining a Function | Creating a function | `def my_func(): ...` |
 | Function Arguments | Passing values to a function | `def greet(name): ...` |
 | Return Statement | Returning a value from a function | `return x` |
-| Lambda Functions | Anonymous function expression | `lambda x: x * 2` |
+| Lambda Functions | Conciseness: Lambda functions are typically used when a simple function is required for a short period of time, and where defining a full function using def would be unnecessarily verbose. No Name: Being anonymous, lambda functions do not have a function name. Versatility: They can be used wherever function objects are required, like in arguments for higher-order functions (functions that take other functions as arguments).| `lambda x: x * 2` or `add = lambda x, y: x + y print(add(5, 3))` |
 | **Modules and Imports** | | |
 | Importing a Module | Using a module in your script | `import math` |
 | Importing a Specific Function | Importing a specific function from a module | `from math import sqrt` |
