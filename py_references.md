@@ -15,6 +15,8 @@ Certainly! Here's a Python reference document formatted as a table for easy expo
 | **Control Structures** | | |
 | If-Else | Conditional execution | `if x > 5: ... else: ...` |
 | For Loop | Iterating over a sequence | `for i in range(5): ...` |
+| For Loop Elements | Iterating over a list via the elements you cannot directly change the elements in the list | `for element in list: ... element+=10` | 
+| For Loop Index | Iterating through a list by the elements index | `for idx in range(len(random_list): num = random_list[idx] ... random_list[idx] = num + 10)` |
 | While Loop | Repeated execution while condition is true | `while x < 5: ...` |
 | Break | Exit the loop | `break` |
 | Continue | Skip to the next iteration | `continue` |
