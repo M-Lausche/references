@@ -27,5 +27,6 @@ Certainly! Here's the JavaScript cheat sheet formatted as a table for easy expor
 | Destructuring | Unpack values from arrays, or properties from objects. | `const {name, age} = person;` |
 | Spread Operator | Expand an iterable (array, string) into individual elements. | `let newArray = [...fruits, "mango"];` |
 | Default Parameters | Set default values for function parameters. | `function greet(name = "Guest") { return \`Hello, ${name}!\`; }` |
-| Import/Export Modules | Modularize JavaScript code by exporting and importing parts of it. | `export const add = (a, b) => a + b; import
+| Import/Export Modules | Modularize JavaScript code by exporting and importing parts of it. | `export const add = (a, b) => a + b; import |
+| Higher Order Functions: Map| Here's a step-by-step breakdown of how .map works:You Have a List: This could be an array of numbers, strings, or any other type of data. You Decide What to Do: You define a function that describes what you want to do to each item. For example, if you have a list of numbers and you want to double each one, your function will take a number and return it multiplied by 2. .map Does the Work: You pass your function to .map. .map goes through your list, applies your function to each item, and collects the results. You Get a New List: .map gives you a new list with the transformed items. Your original list remains unchanged. | `let numbers = [1, 2, 3, 4, 5]; let doubledNumbers = numbers.map(function(number) {return number * 2;});` |
 
