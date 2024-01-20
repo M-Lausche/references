@@ -52,3 +52,4 @@ Certainly! Here's a Python reference document formatted as a table for easy expo
 |**Higher Order Functions** |||
 | map | In Python, map is a built-in function that applies a specified function to each item of an iterable (like a list) and returns an iterator with the results. It's commonly used for transforming data efficiently, allowing for concise and readable code for element-wise operations.| ```my_list = [1,2,3,4] return_value = list(map(double, my_list)) print return_value)[2, 4, 6, 8]``` |
 | filter | In Python, filter is a built-in function that constructs an iterator from elements of an iterable (like a list) for which a specified function returns True. | ```my_list = [1,2,3,4]return_value = list(filter(is_even, my_list)) print(return_value) [2, 4]```|
+| List Comprehension| condensed method | `return [func(elem) for elem in list] or [expression for item in iterable]` |
